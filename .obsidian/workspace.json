@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structure/Linked-List.md",
+                "file": "DataBases/Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structure/Linked-List.md",
+                "file": "DataBases/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structure/Linked-List.md",
+                "file": "DataBases/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structure/Linked-List.md"
+                "file": "DataBases/Overview.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "61b8731006ecf7cb",
   "lastOpenFiles": [
-    "Data Structure/Array.md",
+    "DataBases/Overview.md",
+    "DataBases",
     "DataBase/Overview.md",
+    "Data Structure/Linked-List.md",
+    "Data Structure/Array.md",
     "Data Structure/Overview.md",
     "Algorithms/Overview.md",
     "README.md",
