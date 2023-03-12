@@ -1,5 +1,24 @@
 # Linked List
 
+## Table of Contents
+
+- [Linked List](#linked-list)
+  - [Table of Contents](#table-of-contents)
+  - [What is a Linked List?](#what-is-a-linked-list)
+  - [Types of Linked Lists](#types-of-linked-lists)
+    - [Singly Linked List](#singly-linked-list)
+      - [Singly Linked List Implementation](#singly-linked-list-implementation)
+      - [Singly Linked List Operations](#singly-linked-list-operations)
+        - [Insertion](#insertion)
+        - [Deletion](#deletion)
+    - [Doubly Linked List](#doubly-linked-list)
+      - [Doubly Linked List Implementation](#doubly-linked-list-implementation)
+    - [Circular Linked List](#circular-linked-list)
+      - [Circular Linked List Implementation](#circular-linked-list-implementation)
+    - [Doubly Circular Linked List](#doubly-circular-linked-list)
+      - [Doubly Circular Linked List Implementation](#doubly-circular-linked-list-implementation)
+  - [Array vs Linked List](#array-vs-linked-list)
+
 ## What is a Linked List?
 
 A linked list is a data structure that stores a collection of elements. Each element is called a node. Each node contains two parts: data and a link. The data part contains the value of the node. The link part contains the address of the next node.
@@ -309,3 +328,12 @@ void printList() {
     printf("\n");
 }
 ```
+
+## [Array](Array.md) vs Linked List
+
+| Operation | Array | Linked List |
+| --------- | ----- | ----------- |
+| Read      | O(1)  | O(n)        |
+| Write     | O(1)  | O(n)        |
+| Search    | O(n)  | O(n)        |
+| Delete    | O(n)  | O(n)        |

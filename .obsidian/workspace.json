@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "edfa265769a4e5bd",
+        "id": "befbae1540ca22c5",
         "type": "tabs",
         "children": [
           {
-            "id": "80eebabceda34a22",
+            "id": "61b8731006ecf7cb",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Data Structure/Linked-List.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Data Structure/Linked-List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Data Structure/Linked-List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Data Structure/Linked-List.md"
+              }
             }
           }
         ]
@@ -138,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80eebabceda34a22",
+  "active": "61b8731006ecf7cb",
   "lastOpenFiles": [
+    "Data Structure/Array.md",
     "DataBase/Overview.md",
     "Data Structure/Overview.md",
     "Algorithms/Overview.md",
