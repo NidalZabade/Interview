@@ -1,17 +1,7 @@
-<style>
-red { color: Red }
-orange { color: Orange }
-green { color: Green }
-blue { color: Blue }
-yellow { color: Yellow }
-magenta { color: Magenta }
-cyan { color: Cyan }
-gray { color: Gray }
-</style>
 
 # OOP
 
-**OOP** stands for <blue>*Object Oriented Programming*</blue>.
+**OOP** stands for *Object Oriented Programming*.
 
 ## What is OOP?
 

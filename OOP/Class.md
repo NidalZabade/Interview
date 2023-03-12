@@ -1,19 +1,9 @@
-<style>
-red { color: Red }
-orange { color: Orange }
-green { color: Green }
-blue { color: Blue }
-yellow { color: Yellow }
-magenta { color: Magenta }
-cyan { color: Cyan }
-gray { color: Gray }
-</style>
 
 # Class
 
 ## What is a class?
 
-A class is a <blue>blueprint</blue> for creating objects (a particular data structure), providing initial values for state (member variables or attributes), and implementations of behavior (member functions or methods).
+A class is a **blueprint** for creating objects (a particular data structure), providing initial values for state (member variables or attributes), and implementations of behavior (member functions or methods).
 
 ## Class components
 
@@ -82,7 +72,7 @@ class Person{
 
 ## Object
 
-An object is an <red>**instance of a class**</red>. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.
+An object is an **instance of a class**. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.
 
 ### Object example
 

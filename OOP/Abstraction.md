@@ -1,14 +1,3 @@
-<style>
-red { color: Red }
-orange { color: Orange }
-green { color: Green }
-blue { color: Blue }
-yellow { color: Yellow }
-magenta { color: Magenta }
-cyan { color: Cyan }
-gray { color: Gray }
-</style>
-
 # Abstraction
 
 ## What is Abstraction?
@@ -60,7 +49,7 @@ class Main {
 * An abstract class must be declared with an `abstract` keyword.
 * It can have abstract and non-abstract methods.
 * It cannot be instantiated.
-* A subclass must provide the implementation of abstract methods of the parent abstract class (<red>**Override the abstract method**</red>).
+* A subclass must provide the implementation of abstract methods of the parent abstract class (**Override the abstract method**).
 
 ## Abstract vs [Interface](Interface.md#interface)
 
