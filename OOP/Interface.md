@@ -131,3 +131,5 @@ class Main {
 | On the other hand, an abstract class can contain a fully implemented method. | An interface can only contain abstract methods. |
 | An interface can extend another interface, just like the way a class can inherit from another class. | An abstract class can extend another class and implement multiple interfaces. |
 | An interface can be used with the `implements` keyword (see example above). | An abstract class can be used with the `extends` keyword. |
+
+[**Go back**](Overview.md#oop)

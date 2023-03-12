@@ -11,7 +11,7 @@
             "id": "a9cddaeb68670765",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -139,5 +139,11 @@
     }
   },
   "active": "a9cddaeb68670765",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "DataBase/Overview.md",
+    "Data Structure/Overview.md",
+    "Algorithms/Overview.md",
+    "DataBase",
+    "README.md"
+  ]
 }

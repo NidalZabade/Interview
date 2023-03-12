@@ -77,3 +77,5 @@ public class Encapsulation {
 | Encapsulation is used to achieve data hiding. | Abstraction is used to achieve interface hiding. |
 | Encapsulation is used to hide the values of a variable. | Abstraction is used to hide the implementation details of a method. |
 | Encapsulation is used to restrict direct access to variables and methods. | Abstraction is used to restrict direct access to implementation details. |
+
+[**Go back**](Overview.md#oop)
