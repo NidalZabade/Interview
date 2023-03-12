@@ -43,7 +43,6 @@
         - [Deletion](#deletion-4)
         - [Traversal](#traversal-4)
 
-
 ## What is a Tree?
 
 A tree is a data structure that stores a collection of elements. The elements are organized in a hierarchical structure. The elements are called nodes. Each node has a value and a list of references to other nodes. The references are called children. The first node is called the root node. The root node does not have a parent node. The nodes that do not have any children are called leaf nodes.
@@ -166,6 +165,7 @@ void preorder(struct Node *root) {
     }
 }
 ```
+
 For example, to traverse a binary tree in preorder, you need to call the preorder function.
 
 ```c
@@ -584,11 +584,11 @@ A B-tree is a self-balancing tree data structure that keeps data sorted and allo
 
 A B-tree is a rooted tree that satisfies the following properties:
 
-* Every node has at most m children.
-* Every non-leaf node (except root) has at least ⌈m/2⌉ children.
-* The root has at least two children if it is not a leaf node.
-* A non-leaf node with k children contains k−1 keys.
-* All leaves appear in the same level and contain no keys.
+- Every node has at most m children.
+- Every non-leaf node (except root) has at least ⌈m/2⌉ children.
+- The root has at least two children if it is not a leaf node.
+- A non-leaf node with k children contains k−1 keys.
+- All leaves appear in the same level and contain no keys.
 
 #### Operations
 
@@ -1011,6 +1011,3 @@ For example, to traverse a splay tree, you need to call the traverse function.
 ```c
 traverse(root);
 ```
-
-
-
