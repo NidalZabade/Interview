@@ -110,4 +110,4 @@ for (int i = 0; i < array.size(); i++) {
 | Delete    | O(n)  | O(n)        |
 
 
-[**Go Back**](Overview.md)
+[**Go Back To Data Structure**](Overview.md)

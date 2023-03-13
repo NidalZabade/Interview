@@ -84,4 +84,4 @@ void mergeSort(int array[], int left, int right) {
 
 The time complexity of Merge Sort is O(n log n) in all 3 cases (worst, average and best) as merge sort always divides the array into two halves and take linear time to merge two halves.
 
-[**Go Back**](Overview.md)
+[**Go Back To Sorting Algorithms**](Overview.md)

@@ -140,7 +140,15 @@
   },
   "active": "192383c4e3223562",
   "lastOpenFiles": [
+    "DataBases/Overview.md",
     "Algorithms/Overview.md",
+    "Algorithms/GreedyAlgorithms/KruskalsAlgorithm.md",
+    "Algorithms/GreedyAlgorithms/DijkstrasAlgorithm.md",
+    "Algorithms/GreedyAlgorithms/PrimAlgorithm.md",
+    "Algorithms/GreedyAlgorithms/Graph.png",
+    "Algorithms/GreedyAlgorithms/Screenshot 2023-03-13 131307.png",
+    "Algorithms/GreedyAlgorithms/Overview.md",
+    "Algorithms/GreedyAlgorithms",
     "Untitled.canvas",
     "Algorithms/SortingAlgorithms/ExternalSort.md",
     "Algorithms/SortingAlgorithms/RadixSort.md",
@@ -164,12 +172,7 @@
     "DataStructure/Graph.md",
     "DataStructure",
     "Data Structure/Hash-Table.md",
-    "DataBases/Overview.md",
     "DataBases",
-    "DataBase/Overview.md",
-    "Data Structure/Linked-List.md",
-    "Data Structure/Array.md",
-    "Data Structure/Overview.md",
     "DataBase"
   ]
 }

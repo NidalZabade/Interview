@@ -338,4 +338,4 @@ void printList() {
 | Search    | O(n)  | O(n)        |
 | Delete    | O(n)  | O(n)        |
 
-[**Go Back**](Overview.md)
+[**Go Back To Data Structure**](Overview.md)

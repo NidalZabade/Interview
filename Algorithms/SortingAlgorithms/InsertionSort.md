@@ -33,4 +33,4 @@ void insertionSort(int array[], int size) {
 
 The time complexity of Insertion Sort is O(n^2).
 
-[**Go Back**](Overview.md)
+[**Go Back To Sorting Algorithms**](Overview.md)

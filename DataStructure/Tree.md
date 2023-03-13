@@ -1012,4 +1012,4 @@ For example, to traverse a splay tree, you need to call the traverse function.
 traverse(root);
 ```
 
-[**Go Back**](Overview.md)
+[**Go Back To Data Structure**](Overview.md)

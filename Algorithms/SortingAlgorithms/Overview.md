@@ -16,5 +16,6 @@ There are many sorting algorithms. The most common sorting algorithms are:
 - [**Merge Sort**](MergeSort.md)
 - [**Quick Sort**](QuickSort.md)
 - [**Radix Sort**](RadixSort.md)
+- [**Counting Sort**](CountingSort.md)
 
 [**Back to Algorithms**](../Overview.md)

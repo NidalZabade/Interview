@@ -50,4 +50,4 @@ An undirected graph is a graph in which the edges are undirected and connect two
 
 A directed graph is a graph in which the edges are directed from one node to another.
 
-[**Go Back**](Overview.md)
+[**Go Back To Data Structure**](Overview.md)

@@ -67,4 +67,4 @@ void heapify(int array[], int size, int i) {
 
 The time complexity of Heap Sort is O(n log n).
 
-[**Go Back**](Overview.md)
+[**Go Back To Sorting Algorithms**](Overview.md)
