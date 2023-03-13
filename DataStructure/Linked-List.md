@@ -337,3 +337,5 @@ void printList() {
 | Write     | O(1)  | O(n)        |
 | Search    | O(n)  | O(n)        |
 | Delete    | O(n)  | O(n)        |
+
+[**Go Back**](Overview.md)

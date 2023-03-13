@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "befbae1540ca22c5",
+        "id": "2fe49133df05823e",
         "type": "tabs",
         "children": [
           {
-            "id": "61b8731006ecf7cb",
+            "id": "6dfed5f2b47b5abe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataBases/Overview.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataBases/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataBases/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DataBases/Overview.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61b8731006ecf7cb",
+  "active": "6dfed5f2b47b5abe",
   "lastOpenFiles": [
+    "DataStructure/Tree.md",
+    "DataStructure/Stack.md",
+    "DataStructure/Heap.md",
+    "DataStructure/Queue.md",
+    "DataStructure/Hash-Table.md",
+    "DataStructure/Overview.md",
+    "DataStructure/Linked-List.md",
+    "DataStructure/Array.md",
+    "DataStructure/Graph.md",
+    "DataStructure",
+    "Data Structure/Hash-Table.md",
     "DataBases/Overview.md",
     "DataBases",
     "DataBase/Overview.md",
