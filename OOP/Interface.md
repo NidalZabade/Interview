@@ -118,7 +118,7 @@ class Main {
 | An interface is a completely "abstract class" that is used to group related methods with empty bodies. | An abstract class is a class that is declared abstract—it may or may not include abstract methods. |
 | An interface is not a class. | An abstract class is a class. |
 | An interface cannot be used to create objects (in the example above, it is not possible to create an "Animal" object in the MyMainClass). | An abstract class can be used to create objects. |
-| On the other hand, an abstract class can contain a fully implemented method. | An interface can only contain abstract methods. |
+| An interface can only contain abstract methods. | On the other hand, an abstract class can contain a fully implemented method. |
 | An interface can extend another interface, just like the way a class can inherit from another class. | An abstract class can extend another class and implement multiple interfaces. |
 | An interface can be used with the `implements` keyword (see example above). | An abstract class can be used with the `extends` keyword. |
 
