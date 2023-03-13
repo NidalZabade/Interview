@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2fe49133df05823e",
+        "id": "85628ced842c0129",
         "type": "tabs",
         "children": [
           {
-            "id": "6dfed5f2b47b5abe",
+            "id": "192383c4e3223562",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -138,8 +138,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6dfed5f2b47b5abe",
+  "active": "192383c4e3223562",
   "lastOpenFiles": [
+    "Algorithms/Overview.md",
+    "Untitled.canvas",
+    "Algorithms/SortingAlgorithms/ExternalSort.md",
+    "Algorithms/SortingAlgorithms/RadixSort.md",
+    "Algorithms/SortingAlgorithms/QuickSort.md",
+    "Algorithms/SortingAlgorithms/MergeSort.md",
+    "Algorithms/SortingAlgorithms/HeapSort.md",
+    "Algorithms/SortingAlgorithms/SelectionSort.md",
+    "Algorithms/SortingAlgorithms/ShellSort.md",
+    "Algorithms/SortingAlgorithms/InsertionSort.md",
+    "Algorithms/SortingAlgorithms/BubbleSort.md",
+    "Algorithms/SortingAlgorithms/Overview.md",
+    "Algorithms/SortingAlgorithms",
     "DataStructure/Tree.md",
     "DataStructure/Stack.md",
     "DataStructure/Heap.md",
@@ -157,9 +170,6 @@
     "Data Structure/Linked-List.md",
     "Data Structure/Array.md",
     "Data Structure/Overview.md",
-    "Algorithms/Overview.md",
-    "README.md",
-    "OOP/Overview.md",
     "DataBase"
   ]
 }
