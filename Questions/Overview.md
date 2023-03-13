@@ -12,7 +12,7 @@
 This section contains questions that can be asked in an interview. The questions are divided into 3 categories:
 
 * [OOP](../OOP/Overview.md)
-* [Data](../DataStructure/Overview.md)
+* [Data Structure](../DataStructure/Overview.md)
 * [Algorithms](../Algorithms/Overview.md)
 
 ## OOP Questions
