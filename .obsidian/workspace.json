@@ -140,6 +140,7 @@
   },
   "active": "192383c4e3223562",
   "lastOpenFiles": [
+    "Algorithms/SortingAlgorithms/CountingSort.md",
     "DataBases/Overview.md",
     "Algorithms/Overview.md",
     "Algorithms/GreedyAlgorithms/KruskalsAlgorithm.md",
@@ -171,7 +172,6 @@
     "DataStructure/Array.md",
     "DataStructure/Graph.md",
     "DataStructure",
-    "Data Structure/Hash-Table.md",
     "DataBases",
     "DataBase"
   ]
