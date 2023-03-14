@@ -17,4 +17,4 @@ Kruskal's algorithm is a minimum spanning tree algorithm that finds an edge of t
 
 You can find an example and the implementation on [GeeksforGeeks](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/).
 
-[**Go Back To Greedy Algorithms**](Overview.md)
+[**Go Back To Greedy Algorithms**](README.md)

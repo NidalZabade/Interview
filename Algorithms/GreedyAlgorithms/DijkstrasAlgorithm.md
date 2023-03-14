@@ -18,4 +18,4 @@ Dijkstra's algorithm is a shortest path algorithm that finds the shortest path b
 
 You can find an example and the implementation on [GeeksforGeeks](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/).
 
-[**Go Back To Greedy Algorithms**](Overview.md)
+[**Go Back To Greedy Algorithms**](README.md)

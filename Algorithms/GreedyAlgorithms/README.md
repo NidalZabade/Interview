@@ -14,4 +14,4 @@ There are many greedy algorithms. The most common greedy algorithms are:
 
 
 
-[**Back to Algorithms**](../Overview.md)
+[**Back to Algorithms**](../README.md)

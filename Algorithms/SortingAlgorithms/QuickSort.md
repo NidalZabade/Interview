@@ -63,4 +63,4 @@ int partition(int array[], int low, int high) {
 
 The time complexity of Quick Sort is O(n log n).
 
-[**Go Back To Sorting Algorithms**](Overview.md)
+[**Go Back To Sorting Algorithms**](README.md)

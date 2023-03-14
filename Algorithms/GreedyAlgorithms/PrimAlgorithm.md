@@ -18,4 +18,4 @@ Prim's algorithm is a minimum spanning tree algorithm that finds an edge of the 
 
 You can find an example and the implementation on [GeeksforGeeks](https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/).
 
-[**Go Back To Greedy Algorithms**](Overview.md)
+[**Go Back To Greedy Algorithms**](README.md)

@@ -62,4 +62,4 @@ class Main {
 | An interface can extend another interface, just like the way a class can inherit from another class. | An abstract class can extend another class and implement multiple interfaces. |
 | An interface can be used with the `implements` keyword (see example above). | An abstract class can be used with the `extends` keyword. |
 
-[**Go back**](Overview.md#oop)
+[**Go back**](README.md#oop)

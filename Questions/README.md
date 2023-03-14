@@ -12,13 +12,13 @@
 
 This section contains questions that can be asked in an interview. The questions are divided into 3 categories:
 
-- [OOP](../OOP/Overview.md)
-- [Data Structure](../DataStructure/Overview.md)
-- [Algorithms](../Algorithms/Overview.md)
+- [OOP](../OOP/README.md)
+- [Data Structure](../DataStructure/README.md)
+- [Algorithms](../Algorithms/README.md)
 
 ## OOP Questions
 
-- [What is OOP?](../OOP/Overview.md#what-is-oop)
+- [What is OOP?](../OOP/README.md#what-is-oop)
 - [What is class?](../OOP/Class.md#what-is-a-class)
 - [What is object?](../OOP/Class.md#object)
 - [What is the difference between an interface and an abstract class?](../OOP/Abstraction.md#abstract-vs-interface)

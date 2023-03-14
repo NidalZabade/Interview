@@ -12,7 +12,7 @@ Algorithms are used to make our lives easier. They are used in every aspect of o
 
 ## Algorithms Categories
 
-* [Sorting Algorithms](SortingAlgorithms/Overview.md)
-* [Greedy Algorithms](GreedyAlgorithms/Overview.md)
+* [Sorting Algorithms](SortingAlgorithms/README.md)
+* [Greedy Algorithms](GreedyAlgorithms/README.md)
 
 [**Go Back**](../README.md)
