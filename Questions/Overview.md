@@ -90,6 +90,65 @@ Ans: A class can have both abstract and concrete methods. An interface can have 
 
 Ans: A class can have both abstract and concrete methods. An abstract class can have only abstract methods.
 
+* Represent a family consisting of a father, mother, and children using OOP.
+
+```java
+class Person {
+    private String name;
+    private int age;
+    private Person father;
+    private Person mother;
+
+    public Person(String name, int age, Person father, Person mother) {
+        this.name = name;
+        this.age = age;
+        this.father = father;
+        this.mother = mother;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public Person getFather() {
+        return father;
+    }
+
+    public Person getMother() {
+        return mother;
+    }
+
+}
+
+class Family {
+    private Person father;
+    private Person mother;
+    private List<Person> children;
+
+    public Family(Person father, Person mother, List<Person> children) {
+        this.father = father;
+        this.mother = mother;
+        this.children = children;
+    }
+
+    public Person getFather() {
+        return father;
+    }
+
+    public Person getMother() {
+        return mother;
+    }
+
+    public List<Person> getChildren() {
+        return children;
+    }
+}
+```
+
 ## Data Structures Questions
 
 * What is the difference between an array and a linked list?
@@ -182,5 +241,26 @@ Ans:
         *a = *a - *b;
     }
 ```
+
+* A leap year is a year that is divisible by 4, but not by 100, unless it is also divisible by 400. Write a function that takes a year as a parameter and returns true if the year is a leap year, and false otherwise.
+
+```python
+def isLeapYear(year):
+    return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
+```
+
+* Using the `isLeapYear` function, write a function that takes a year and print the following 4 leap years.
+
+```python
+def printLeapYears(year):
+    count = 0
+    while count < 4:
+        if isLeapYear(year):
+            print(year)
+            count += 1
+        year += 1
+```
+
+
 
 [**Go Back**](../README.md)
