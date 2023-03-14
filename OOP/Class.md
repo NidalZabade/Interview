@@ -93,4 +93,3 @@ Person person2 = new Person("Mary", "Paris", 25);
 * An object belongs to a particular class.
 
 [Go back](README.md#oop)
-
