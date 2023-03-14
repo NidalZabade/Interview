@@ -11,6 +11,7 @@
   - [Graph Types](#graph-types)
     - [Undirected Graph](#undirected-graph)
     - [Directed Graph](#directed-graph)
+
 ## What is a Graph?
 
 A graph is a data structure that stores a collection of nodes and edges. A node is a vertex of a graph. An edge is a connection between two nodes. A graph can be directed or undirected. In a directed graph, an edge is directed from one node to another. In an undirected graph, an edge is undirected and connects two nodes bidirectionally.,
@@ -39,8 +40,8 @@ int graph[10][10];
 
 There are two types of graphs:
 
-* Undirected Graph
-* Directed Graph
+- Undirected Graph
+- Directed Graph
 
 ### Undirected Graph
 

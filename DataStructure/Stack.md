@@ -45,8 +45,10 @@ void push(int data) {
     }
 }
 ```
+
 For example, to push 1, 2, and 3 to a stack, you need to call the push function three times.
-```c 
+
+```c
 push(1);
 push(2);
 push(3);
@@ -70,16 +72,21 @@ int pop() {
     }
 }
 ```
+
 For example, to pop and print 3, 2, and 1 from a stack, you need to call the pop function three times.
+
 ```c
 printf("%d\n", pop());
 printf("%d\n", pop());
 printf("%d\n", pop());
 ```
+
 The output of the above code is:
+
 ```c
 3
 2
 1
 ```
+
 [**Go Back To Data Structure**](README.md)

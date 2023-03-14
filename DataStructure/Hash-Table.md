@@ -15,7 +15,7 @@
       - [Double Hashing](#double-hashing)
   - [Hash Table Load Factor](#hash-table-load-factor)
   - [Hash Table Rehashing](#hash-table-rehashing)
-  
+
 ## What is a Hash Table?
 
 A hash table is a data structure that stores a collection of elements. Each element is identified by a key. The key is a number that represents the position of the element in the hash table. The first element in the hash table has a key of 0, the second element has a key of 1, and so on.
@@ -42,8 +42,8 @@ int hashFunction(int key) {
 
 A hash collision occurs when two elements have the same key. This can happen when the hash function returns the same key for two different elements. There are two ways to handle hash collisions:
 
-* Separate Chaining
-* Open Addressing
+- Separate Chaining
+- Open Addressing
 
 ### Separate Chaining
 
@@ -119,16 +119,15 @@ void delete(int key) {
 }
 ```
 
-
 ### Open Addressing
 
 Open addressing is a method of handling hash collisions. In open addressing, each element in the hash table is a single element. When a hash collision occurs, the element is added to the next available position in the hash table.
 
 There are three types of open addressing:
 
-* Linear Probing
-* Quadratic Probing
-* Double Hashing
+- Linear Probing
+- Quadratic Probing
+- Double Hashing
 
 #### Linear Probing
 
@@ -232,7 +231,7 @@ void delete(int key) {
 
 #### Double Hashing
 
-In double hashing, the next available position in the hash table is calculated by adding i * hashFunction2(key) to the current position.
+In double hashing, the next available position in the hash table is calculated by adding i \* hashFunction2(key) to the current position.
 
 ```c
 int hashTable[10];

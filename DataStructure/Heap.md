@@ -34,9 +34,9 @@ int heap[10];
 
 There are two types of heaps:
 
-* Max Heap
-* Min Heap
-  
+- Max Heap
+- Min Heap
+
 ### Max Heap
 
 A max heap is a heap in which the value of each node is greater than or equal to the value of its parent, with the maximum value in the root node.
@@ -53,10 +53,10 @@ To maintain the heap property, the heap must be heapified. Heapify is the proces
 
 To max heapify a binary tree, the following steps are performed:
 
-* If the node is a leaf node, stop.
-* If the node is not a leaf node, compare the node with its children.
-* If the node is greater than or equal to its children, stop.
-* If the node is less than its children, swap the node with the largest child.
+- If the node is a leaf node, stop.
+- If the node is not a leaf node, compare the node with its children.
+- If the node is greater than or equal to its children, stop.
+- If the node is less than its children, swap the node with the largest child.
 
 #### Max Heapify Implementation
 
@@ -84,10 +84,10 @@ void maxHeapify(int index) {
 
 To min heapify a binary tree, the following steps are performed:
 
-* If the node is a leaf node, stop.
-* If the node is not a leaf node, compare the node with its children.
-* If the node is less than or equal to its children, stop.
-* If the node is greater than its children, swap the node with the smallest child.
+- If the node is a leaf node, stop.
+- If the node is not a leaf node, compare the node with its children.
+- If the node is less than or equal to its children, stop.
+- If the node is greater than its children, swap the node with the smallest child.
 
 #### Min Heapify Implementation
 
@@ -115,8 +115,8 @@ void minHeapify(int index) {
 
 A heap supports the following operations:
 
-* Insert
-* Delete    
+- Insert
+- Delete
 
 ## Insert
 

@@ -73,6 +73,7 @@ void insertNode(int data) {
     }
 }
 ```
+
 For example, to insert 1, 2, and 3 to a singly linked list, you need to call the insertNode function three times.
 
 ```c

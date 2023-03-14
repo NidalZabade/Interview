@@ -1,4 +1,3 @@
-
 # Inheritance
 
 ## What is inheritance?
@@ -14,8 +13,8 @@ all the animals has `legs`, also all animals can `eat`, `sleep`, `run`, etc. So,
 
 There are two types of inheritance in Java:
 
-* **Single inheritance**: a class can only inherit from one superclass.
-* **Multilevel inheritance**: a class can inherit from a subclass, which can inherit from another superclass.
+- **Single inheritance**: a class can only inherit from one superclass.
+- **Multilevel inheritance**: a class can inherit from a subclass, which can inherit from another superclass.
 
 ### Superclass
 
@@ -99,12 +98,12 @@ public class Main {
 
 ## Inheritance rules
 
-* A subclass can only inherit from one superclass.
-* A subclass inherits all the public and protected members of its parent, no matter what package the subclass is in.
-* A subclass does not inherit the private members of its parent class.
-* The constructor of the superclass is called from the subclass using the `super()` keyword.
-* The `super()` keyword must be the first statement in the subclass constructor.
-* If the superclass has no default constructor, the subclass must call a constructor from the superclass using the `super()` keyword.
-* A subclass can override any methods of its parent class.
+- A subclass can only inherit from one superclass.
+- A subclass inherits all the public and protected members of its parent, no matter what package the subclass is in.
+- A subclass does not inherit the private members of its parent class.
+- The constructor of the superclass is called from the subclass using the `super()` keyword.
+- The `super()` keyword must be the first statement in the subclass constructor.
+- If the superclass has no default constructor, the subclass must call a constructor from the superclass using the `super()` keyword.
+- A subclass can override any methods of its parent class.
 
 [**Go back**](README.md#oop)

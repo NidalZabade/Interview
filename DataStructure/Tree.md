@@ -622,7 +622,7 @@ For example, to search a B-tree, you need to call the search function.
 struct Node *node = search(root, 1);
 ```
 
-##### Insertion
+##### Insertion 
 
 To insert a node to a B-tree, you need to provide the root of the tree and the value of the node. The node is then inserted to the tree (using recursion).
 

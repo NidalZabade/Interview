@@ -1,4 +1,3 @@
-
 # Polymorphism
 
 ## What is polymorphism?

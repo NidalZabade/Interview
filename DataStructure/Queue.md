@@ -81,9 +81,11 @@ printf("%d ", dequeue());
 printf("%d ", dequeue());
 printf("%d ", dequeue());
 ```
+
 The output of the above code is:
 
 ```c
 1 2 3
 ```
+
 [**Go Back To Data Structure**](README.md)
