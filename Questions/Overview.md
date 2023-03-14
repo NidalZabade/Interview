@@ -1,6 +1,7 @@
 # Questions
 
 ## Table of Contents
+
 - [Questions](#questions)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
@@ -11,22 +12,22 @@
 
 This section contains questions that can be asked in an interview. The questions are divided into 3 categories:
 
-* [OOP](../OOP/Overview.md)
-* [Data Structure](../DataStructure/Overview.md)
-* [Algorithms](../Algorithms/Overview.md)
+- [OOP](../OOP/Overview.md)
+- [Data Structure](../DataStructure/Overview.md)
+- [Algorithms](../Algorithms/Overview.md)
 
 ## OOP Questions
 
-* [What is OOP?](../OOP/Overview.md#what-is-oop)
-* [What is class?](../OOP/Class.md#what-is-a-class)
-* [What is object?](../OOP/Class.md#object)
-* [What is the difference between an interface and an abstract class?](../OOP/Abstraction.md#abstract-vs-interface)
-* [What is Polymorphism?](../OOP/Polymorphism.md#what-is-polymorphism)
-* [What is Encapsulation?](../OOP/Encapsulation.md#what-is-encapsulation)
-* What is the difference between == and equals()?
-  
+- [What is OOP?](../OOP/Overview.md#what-is-oop)
+- [What is class?](../OOP/Class.md#what-is-a-class)
+- [What is object?](../OOP/Class.md#object)
+- [What is the difference between an interface and an abstract class?](../OOP/Abstraction.md#abstract-vs-interface)
+- [What is Polymorphism?](../OOP/Polymorphism.md#what-is-polymorphism)
+- [What is Encapsulation?](../OOP/Encapsulation.md#what-is-encapsulation)
+- What is the difference between == and equals()?
+
 Ans: == is used to compare primitive types and references. equals() is used to compare objects.
-  
+
 For example:
 
 ```java
@@ -40,7 +41,7 @@ For example:
     System.out.println(s1.equals(s2)); // true
 ```
 
-* What is the difference between a checked exception and an unchecked exception?
+- What is the difference between a checked exception and an unchecked exception?
 
 Ans: Checked exceptions are checked at compile time. Unchecked exceptions are checked at runtime.
 
@@ -62,35 +63,35 @@ In the above example, IOException is a checked exception. If the code in readFil
 
 In the above example, there is no checked exception. If the code in readFile() throws an exception, then the readFile() method must either handle the exception or declare that it throws the exception. If readFile() does not handle the exception or declare that it throws the exception, then the code will compile.
 
-* What is the difference between a final, finally, and finalize?
+- What is the difference between a final, finally, and finalize?
 
 Ans: final is a keyword used to make a variable constant. finally is a block that is always executed whether an exception is handled or not. finalize is a method that is called by the garbage collector on an object before garbage collection.
 
-* What is the difference between a static and a non-static method?
+- What is the difference between a static and a non-static method?
 
 Ans: A static method can be called without creating an object of the class. A non-static method must be called by creating an object of the class.
 
-* What is the difference between a static and a non-static variable?
+- What is the difference between a static and a non-static variable?
 
 Ans: A static variable is shared by all the objects of the class. A non-static variable is not shared by all the objects of the class.
 
-* What is the difference between a constructor and a method?
+- What is the difference between a constructor and a method?
 
 Ans: A constructor is used to initialize the object. A method is used to perform some operations.
 
-* What is the difference between a class and an object?
+- What is the difference between a class and an object?
 
 Ans: A class is a blueprint from which objects are created. An object is an instance of a class.
 
-* What is the difference between a class and an interface?
+- What is the difference between a class and an interface?
 
 Ans: A class can have both abstract and concrete methods. An interface can have only abstract methods.
 
-* What is the difference between a class and an abstract class?
+- What is the difference between a class and an abstract class?
 
 Ans: A class can have both abstract and concrete methods. An abstract class can have only abstract methods.
 
-* Represent a family consisting of a father, mother, and children using OOP.
+- Represent a family consisting of a father, mother, and children using OOP.
 
 ```java
 class Person {
@@ -151,15 +152,15 @@ class Family {
 
 ## Data Structures Questions
 
-* What is the difference between an array and a linked list?
+- What is the difference between an array and a linked list?
 
 Ans: An array is a data structure that stores a fixed-size sequential collection of elements of the same type. A linked list is a data structure that stores a dynamic-size sequential collection of elements of the same type.
 
-* What is the difference between a stack and a queue?
+- What is the difference between a stack and a queue?
 
 Ans: A stack is a data structure that stores a collection of elements and only allows access in a last-in-first-out order. A queue is a data structure that stores a collection of elements and only allows access in a first-in-first-out order.
 
-* How to represent inorder traversal of a binary tree?
+- How to represent inorder traversal of a binary tree?
 
 Ans: Inorder traversal of a binary tree is the process of visiting the left child, then the root and finally the right child.
 
@@ -174,7 +175,7 @@ Ans: Inorder traversal of a binary tree is the process of visiting the left chil
     }
 ```
 
-* How to represent preorder traversal of a binary tree?
+- How to represent preorder traversal of a binary tree?
 
 Ans: Preorder traversal of a binary tree is the process of visiting the root, then the left child and finally the right child.
 
@@ -189,7 +190,7 @@ Ans: Preorder traversal of a binary tree is the process of visiting the root, th
     }
 ```
 
-* How to represent postorder traversal of a binary tree?
+- How to represent postorder traversal of a binary tree?
 
 Ans: Postorder traversal of a binary tree is the process of visiting the left child, then the right child and finally the root.
 
@@ -204,15 +205,15 @@ Ans: Postorder traversal of a binary tree is the process of visiting the left ch
     }
 ```
 
-* What is the time complexity of the following operations on a hash table?
+- What is the time complexity of the following operations on a hash table?
 
-  * Search
-  * Insert
-  * Delete
+  - Search
+  - Insert
+  - Delete
 
 Ans: The time complexity of the above operations on a hash table is O(1).
 
-* Swap an array of integers using recursion.
+- Swap an array of integers using recursion.
 
 Ans:
 
@@ -232,7 +233,7 @@ Ans:
     }
 ```
 
-* Swap two variables without using a temporary variable.
+- Swap two variables without using a temporary variable.
 
 ```c
     void swap(int *a, int *b) {
@@ -242,14 +243,14 @@ Ans:
     }
 ```
 
-* A leap year is a year that is divisible by 4, but not by 100, unless it is also divisible by 400. Write a function that takes a year as a parameter and returns true if the year is a leap year, and false otherwise.
+- A leap year is a year that is divisible by 4, but not by 100, unless it is also divisible by 400. Write a function that takes a year as a parameter and returns true if the year is a leap year, and false otherwise.
 
 ```python
 def isLeapYear(year):
     return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
 ```
 
-* Using the `isLeapYear` function, write a function that takes a year and print the following 4 leap years.
+- Using the `isLeapYear` function, write a function that takes a year and print the following 4 leap years.
 
 ```python
 def printLeapYears(year):
@@ -260,7 +261,5 @@ def printLeapYears(year):
             count += 1
         year += 1
 ```
-
-
 
 [**Go Back**](../README.md)
