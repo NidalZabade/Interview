@@ -16,7 +16,7 @@ The Bubble Sort algorithm is as follows:
 
 ## Bubble Sort Implementation
 
-A Bubble Sort algorithm can be implemented using a class in C.
+A Bubble Sort algorithm can be implemented in C as following:
 
 ```c
 void bubbleSort(int array[], int size) {

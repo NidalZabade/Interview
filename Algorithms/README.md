@@ -14,5 +14,6 @@ Algorithms are used to make our lives easier. They are used in every aspect of o
 
 * [Sorting Algorithms](SortingAlgorithms/README.md)
 * [Greedy Algorithms](GreedyAlgorithms/README.md)
+* [Search Algorithms](SearchingAlgorithms/README.md)
 
 [**Go Back**](../README.md)
