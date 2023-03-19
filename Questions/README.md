@@ -254,10 +254,10 @@ def isLeapYear(year):
 def printLeapYears(year):
     count = 0
     while count < 4:
+        year += (4-(year%4))
         if isLeapYear(year):
             print(year)
             count += 1
-        year += 1
 ```
 
 [**Go Back**](../README.md)
