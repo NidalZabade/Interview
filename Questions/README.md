@@ -87,10 +87,6 @@ Ans: A class is a blueprint from which objects are created. An object is an inst
 
 Ans: A class can have both abstract and concrete methods. An interface can have only abstract methods.
 
-- What is the difference between a class and an abstract class?
-
-Ans: A class can have both abstract and concrete methods. An abstract class can have only abstract methods.
-
 - Represent a family consisting of a father, mother, and children using OOP.
 
 ```java
