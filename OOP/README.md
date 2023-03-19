@@ -14,5 +14,6 @@ OOP stands for *Object Oriented Programming*. is a programming paradigm that use
 * [**Abstraction**](Abstraction.md#abstraction)
 * [**Interface**](Interface.md#interface)
 * [**Encapsulation**](Encapsulation.md#encapsulation)
+* [**SOLID**](SOLID.md#solid)
 
 [**Go Back**](../README.md)
