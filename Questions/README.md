@@ -145,6 +145,7 @@ class Family {
     }
 }
 ```
+
 - [What is the SOLID principle?](../OOP/SOLID.md#introduction)
 
 ## Data Structures Questions
