@@ -17,5 +17,10 @@ There are many searching algorithms. The most common searching algorithms are:
 - [**Fibonacci Search**](FibonacciSearch.md)
 - [**The Ubiquitous Binary Search**](TheUbiquitousBinarySearch.md)
 - [**Ternary Search**](TernarySearch.md)
+- [**Breadth First Search**](BreadthFirstSearch.md)
+- [**Uniform Cost Search**](UniformCostSearch.md)
+- [**Depth First Search**](DepthFirstSearch.md)
+- [**Iterative Deepening Search**](IterativeDeepeningSearch.md)
+- [**Bidirectional Search**](BidirectionalSearch.md)
 
 [**Back to Algorithms**](../README.md)
