@@ -1,14 +1,10 @@
 # Data Query Language (DQL)
 
-## DQL
-
-DQL stands for Data Query Language. DQL is used to fetch data from the database.
-
 ## Table of contents
 
 - [Data Query Language (DQL)](#data-query-language-dql)
-  - [DQL](#dql)
   - [Table of contents](#table-of-contents)
+  - [DQL](#dql)
     - [SELECT](#select)
     - [SELECT DISTINCT](#select-distinct)
     - [WHERE](#where)
@@ -30,6 +26,10 @@ DQL stands for Data Query Language. DQL is used to fetch data from the database.
     - [ALL](#all)
     - [EXISTS](#exists)
     - [CASE](#case)
+
+## DQL
+
+DQL stands for Data Query Language. DQL is used to fetch data from the database.
 
 ### SELECT
 

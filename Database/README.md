@@ -1,5 +1,20 @@
 # Database
 
+## Table of contents
+
+- [Database](#database)
+  - [Table of contents](#table-of-contents)
+  - [What is a databases?](#what-is-a-databases)
+  - [Types of databases](#types-of-databases)
+  - [Relational databases](#relational-databases)
+    - [Relational database example](#relational-database-example)
+  - [Non-relational databases](#non-relational-databases)
+    - [Non-relational database example](#non-relational-database-example)
+  - [SQL vs NoSQL](#sql-vs-nosql)
+  - [SQL](#sql)
+  - [ORM](#orm)
+    - [ORM example](#orm-example)
+
 ## What is a databases?
 
 A database is a collection of information that is organized so that it can be easily accessed, managed and updated.
@@ -54,7 +69,36 @@ A non-relational database is a database that does not incorporate the table/key 
 SQL stands for Structured Query Language. SQL is used to communicate with a database.
 SQL divides commands into the following categories:
 
-- [Data Query Language (DQL)](DQL.md)
 - [Data Definition Language (DDL)](DDL.md)
+- [Data Query Language (DQL)](DQL.md)
 - [Data Manipulation Language (DML)](DML.md)
 - [Data Control Language (DCL)](DCL.md)
+
+## ORM
+
+ORM stands for Object-Relational Mapping. ORM is a programming technique for converting data between relational databases and object oriented programming languages such as Java, C#, etc.
+
+### ORM example
+
+```java
+@Entity
+@Table(name = "users")
+public class User {
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  private Long id;
+
+  @Column(name = "first_name")
+  private String firstName;
+
+  @Column(name = "last_name")
+  private String lastName;
+
+  @Column(name = "email")
+  private String email;
+
+  // getters and setters
+}
+```
+
+[**Go Back**](../README.md)
