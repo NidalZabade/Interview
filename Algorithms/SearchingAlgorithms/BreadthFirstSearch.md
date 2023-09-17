@@ -44,3 +44,9 @@ void bfs(struct Graph* graph, int startVertex) {
     }
 }
 ```
+
+## Breadth First Search Complexity
+
+The time complexity of Breadth First Search is O(V+E) when Adjacency Matrix is used, where V stands for vertices and E stands for edges.
+
+[**Go Back To Searching Algorithms**](README.md)
