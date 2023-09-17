@@ -33,4 +33,4 @@ ON object_name
 FROM {user_name |PUBLIC |role_name};
 ```
 
-[**Go back**](README.md)
+[**Go back**](../README.md)
