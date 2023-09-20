@@ -7,6 +7,8 @@
   - [Introduction](#introduction)
   - [OOP Questions](#oop-questions)
   - [Data Structures Questions](#data-structures-questions)
+  - [Database Questions](#database-questions)
+  - [Random Questions](#random-questions)
 
 ## Introduction
 
@@ -210,6 +212,22 @@ Ans: Postorder traversal of a binary tree is the process of visiting the left ch
   - Delete
 
 Ans: The time complexity of the above operations on a hash table is O(1).
+
+## Database Questions
+
+- What is the difference between a primary key and a foreign key?
+  Ans: A primary key is a column or a set of columns that uniquely identifies each row in a table. A foreign key is a column or a set of columns that refers to a primary key in another table.
+- What is the difference between a clustered index and a non-clustered index?
+  Ans: A clustered index is a type of index in which the order of the rows in the table is the same as the order of the rows in the index. A non-clustered index is a type of index in which the order of the rows in the table is not the same as the order of the rows in the index.
+- [What is the difference between a left join and a right join?](../Database/DQL.md#left-join-vs-right-join)
+
+- What Indexing?
+  Ans: Indexing is a way of sorting a number of records on multiple fields. Creating an [index](../Database/DDL.md#create-index) on a field in a table creates another data structure which holds the field value, and pointer to the record it relates to. This index structure is then sorted, allowing Binary Searches to be performed on it.
+
+- What is ERD?
+  Ans: ERD stands for Entity Relationship Diagram. It is a graphical representation of entities and their relationships to each other.
+
+## Random Questions
 
 - Swap an array of integers using recursion.
 
