@@ -13,11 +13,14 @@
 
 ## Introduction
 
-This section contains questions that can be asked in an interview. The questions are divided into 3 categories:
+This section contains questions that can be asked in an interview. The questions are divided into 6 categories:
 
 - [OOP](../OOP/README.md)
 - [Data Structure](../DataStructure/README.md)
 - [Algorithms](../Algorithms/README.md)
+- [Database](../Database/README.md)
+- [Random](#random-questions)
+- [IQ](#iq-questions)
 
 ## OOP Questions
 
@@ -297,6 +300,57 @@ e.g.
 - What errors appear in compile time and what errors appear in runtime?
 
 Ans: Syntax errors appear in compile time. Runtime errors appear in runtime.
+
+- Write a function that takes an array of integers and a target integer and returns true if there are 2 integers in the array that add up to the target integer, and false otherwise.
+
+  - O(n<sup>2</sup>) solution
+
+```python
+def twoSum(nums, target):
+    for i in range(len(nums)):
+        for j in range(i+1, len(nums)):
+            if nums[i] + nums[j] == target:
+                return True
+    return False
+```
+
+- Write a function takes two strings of numbers and returns which number is greater.
+
+```python
+def compare(num1:str,num2:str):
+    return num1 if int(num1) > int(num2) else num2
+```
+
+- Write a function that takes an array of integers and returns the most frequent integer in the array.
+
+```python
+def mostFrequent(nums):
+    count = {}
+    for num in nums:
+        if num in count:
+            count[num] += 1
+        else:
+            count[num] = 1
+    return max(count, key=count.get)
+```
+
+- Write a function that takes two strings and returns a string that contains only the characters that are not common to both strings.
+
+```python
+def uncommonChars(str1, str2):
+    count = {}
+    for char in str1:
+        if char in count:
+            count[char] += 1
+        else:
+            count[char] = 1
+    for char in str2:
+        if char in count:
+            count[char] += 1
+        else:
+            count[char] = 1
+    return ''.join([char for char in count if count[char] == 1])
+```
 
 ## IQ Questions
 
