@@ -219,24 +219,27 @@ Ans: Postorder traversal of a binary tree is the process of visiting the left ch
   - Insert
   - Delete
 
-Ans: The time complexity of the above operations on a hash table is O(1).
+  - Ans: The time complexity of the above operations on a hash table is O(1).
 
 ## Database Questions
 
 - What is the difference between a primary key and a foreign key?
-  Ans: A primary key is a column or a set of columns that uniquely identifies each row in a table. A foreign key is a column or a set of columns that refers to a primary key in another table.
+  - Ans: A primary key is a column or a set of columns that uniquely identifies each row in a table. A foreign key is a column or a set of columns that refers to a primary key in another table.
 - What is the difference between a clustered index and a non-clustered index?
-  Ans: A clustered index is a type of index in which the order of the rows in the table is the same as the order of the rows in the index. A non-clustered index is a type of index in which the order of the rows in the table is not the same as the order of the rows in the index.
+  - Ans: A clustered index is a type of index in which the order of the rows in the table is the same as the order of the rows in the index. A non-clustered index is a type of index in which the order of the rows in the table is not the same as the order of the rows in the index.
 - [What is the difference between a left join and a right join?](../Database/DQL.md#left-join-vs-right-join)
 
 - What Indexing?
-  Ans: Indexing is a way of sorting a number of records on multiple fields. Creating an [index](../Database/DDL.md#create-index) on a field in a table creates another data structure which holds the field value, and pointer to the record it relates to. This index structure is then sorted, allowing Binary Searches to be performed on it.
+
+  - Ans: Indexing is a way of sorting a number of records on multiple fields. Creating an [index](../Database/DDL.md#create-index) on a field in a table creates another data structure which holds the field value, and pointer to the record it relates to. This index structure is then sorted, allowing Binary Searches to be performed on it.
 
 - What is ERD?
-  Ans: ERD stands for Entity Relationship Diagram. It is a graphical representation of entities and their relationships to each other.
+
+  - Ans: ERD stands for Entity Relationship Diagram. It is a graphical representation of entities and their relationships to each other.
 
 - What are the constraints in SQL?
-  Ans: Constraints are the rules enforced on data columns on table. These are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the database. The following are some constraints in SQL:
+
+  - Ans: Constraints are the rules enforced on data columns on table. These are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the database. The following are some constraints in SQL:
 
   - NOT NULL Constraint: Ensures that a column cannot have a NULL value.
   - DEFAULT Constraint: Provides a default value for a column when none is specified.
@@ -286,7 +289,7 @@ def printLeapYears(year):
 
 - Which better store password in string or char array?
 
-Ans: char array is better because it can be cleared after use.
+  -Ans: char array is better because it can be cleared after use.
 
 e.g.
 
@@ -299,7 +302,7 @@ e.g.
 
 - What errors appear in compile time and what errors appear in runtime?
 
-Ans: Syntax errors appear in compile time. Runtime errors appear in runtime.
+  -Ans: Syntax errors appear in compile time. Runtime errors appear in runtime.
 
 - Write a function that takes an array of integers and a target integer and returns true if there are 2 integers in the array that add up to the target integer, and false otherwise.
 
