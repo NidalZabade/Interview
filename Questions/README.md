@@ -317,6 +317,20 @@ def twoSum(nums, target):
     return False
 ```
 
+  - O(n) solution
+
+```python
+
+def twoSum(nums, target):
+    count = {}
+    for num in nums:
+        if num in count:
+            return True
+        else:
+            count[target - num] = 1
+    return False
+```
+
 - Write a function takes two strings of numbers and returns which number is greater.
 
 ```python
