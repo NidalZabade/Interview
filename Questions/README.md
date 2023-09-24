@@ -308,28 +308,28 @@ e.g.
 
   - O(n<sup>2</sup>) solution
 
-```python
-def twoSum(nums, target):
-    for i in range(len(nums)):
-        for j in range(i+1, len(nums)):
-            if nums[i] + nums[j] == target:
-                return True
-    return False
-```
+    ```python
+    def twoSum(nums, target):
+        for i in range(len(nums)):
+            for j in range(i+1, len(nums)):
+                if nums[i] + nums[j] == target:
+                    return True
+        return False
+    ```
 
   - O(n) solution
 
-```python
+    ```python
 
-def twoSum(nums, target):
-    count = {}
-    for num in nums:
-        if num in count:
-            return True
-        else:
-            count[target - num] = 1
-    return False
-```
+    def twoSum(nums, target):
+        count = {}
+        for num in nums:
+            if num in count:
+                return True
+            else:
+                count[target - num] = 1
+        return False
+    ```
 
 - Write a function takes two strings of numbers and returns which number is greater.
 
