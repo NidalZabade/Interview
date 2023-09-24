@@ -373,18 +373,19 @@ def uncommonChars(str1, str2):
   - Same strategy can be used for 12 balls, 27 balls, 81 balls, etc.
 
 - You have 3 jars that are all mislabeled. One jar contains Apple, another contains Orange, and the third jar contains a mixture of both Apple and Orange. You are allowed to pick as many fruits as you want from each jar to fix the labels on the jars. What is the minimum number of fruits that you have to pick and from which jars to correctly label them?
-  Ans: Pick a fruit from the jar labeled Apple and Orange. If the fruit is Apple, then the jar labeled Apple contains Apple, the jar labeled Orange contains Orange, and the jar labeled Apple and Orange contains Apple. If the fruit is Orange, then the jar labeled Apple contains Orange, the jar labeled Orange contains Apple, and the jar labeled Apple and Orange contains Orange.
+
+  - Ans: Pick a fruit from the jar labeled Apple and Orange. If the fruit is Apple, then the jar labeled Apple contains Apple, the jar labeled Orange contains Orange, and the jar labeled Apple and Orange contains Apple. If the fruit is Orange, then the jar labeled Apple contains Orange, the jar labeled Orange contains Apple, and the jar labeled Apple and Orange contains Orange.
 
 - You have a 3 gallon jug and a 5 gallon jug. How can you measure out exactly 4 gallons?
 
-  Ans: Fill the 5 gallon jug and pour it into the 3 gallon jug until the 3 gallon jug is full. Empty the 3 gallon jug. Pour the remaining 2 gallons from the 5 gallon jug into the 3 gallon jug. Fill the 5 gallon jug and pour it into the 3 gallon jug until the 3 gallon jug is full. The 5 gallon jug now contains 4 gallons.
+  - Ans: Fill the 5 gallon jug and pour it into the 3 gallon jug until the 3 gallon jug is full. Empty the 3 gallon jug. Pour the remaining 2 gallons from the 5 gallon jug into the 3 gallon jug. Fill the 5 gallon jug and pour it into the 3 gallon jug until the 3 gallon jug is full. The 5 gallon jug now contains 4 gallons.
 
 - You have a field in the first day of the year. You plant a flower in the field. The flower doubles in size every day. It takes 100 days for the flower to cover the entire field. How many days does it take for the flower to cover half the field?
 
-  Ans: 99 days.
+  - Ans: 99 days. The flower doubles in size every day. On the 99th day, the flower covers half the field. On the 100th day, the flower covers the entire field.
 
 - You have a cake and you want to cut it into 8 equal pieces. You can only make 3 cuts. How can you cut the cake into 8 equal pieces?
 
-  Ans: Cut the cake into 4 equal pieces. Stack the 4 pieces on top of each other. Cut the cake into 4 equal pieces. Stack the 4 pieces on top of each other. Cut the cake into 4 equal pieces. The cake is now cut into 8 equal pieces.
+  - Ans: Cut the cake into 4 equal pieces. Stack the 4 pieces on top of each other. Cut the cake into 4 equal pieces. Stack the 4 pieces on top of each other. Cut the cake into 4 equal pieces. The cake is now cut into 8 equal pieces.
 
 [**Go Back**](../README.md)
