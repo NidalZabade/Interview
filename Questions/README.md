@@ -241,10 +241,10 @@ Ans: Postorder traversal of a binary tree is the process of visiting the left ch
 
   - Ans: Constraints are the rules enforced on data columns on table. These are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the database. The following are some constraints in SQL:
 
-  - NOT NULL Constraint: Ensures that a column cannot have a NULL value.
-  - DEFAULT Constraint: Provides a default value for a column when none is specified.
-  - UNIQUE Constraint: Ensures that all values in a column are different.
-  - CHECK Constraint: Ensures that all values in a column satisfies a specific condition.
+    - NOT NULL Constraint: Ensures that a column cannot have a NULL value.
+    - DEFAULT Constraint: Provides a default value for a column when none is specified.
+    - UNIQUE Constraint: Ensures that all values in a column are different.
+    - CHECK Constraint: Ensures that all values in a column satisfies a specific condition.
 
 ## Random Questions
 
