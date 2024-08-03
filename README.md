@@ -1,4 +1,4 @@
-# Hi 😀
+# Hi 😃
 
 ## Introduction
 
