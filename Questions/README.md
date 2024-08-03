@@ -12,12 +12,12 @@
 
 This section contains questions that can be asked in an interview.
 
-- [OOP](../OOP/OOPQuestions.md)
-- [Data Structure](../DataStructure/DataStructureQuestions.md)
-- [Algorithms](../Algorithms/README.md)
-- [Database](../Database/DatabaseQuestions.md)
-- [Random](#random-questions)
-- [IQ](#iq-questions)
+- [OOP Questions](../OOP/OOPQuestions.md)
+- [Data Structure Questions](../DataStructure/DataStructureQuestions.md)
+- [Algorithms Questions](../Algorithms/README.md)
+- [Database Questions](../Database/DatabaseQuestions.md)
+- [Random Questions](#random-questions)
+- [IQ Questions](#iq-questions)
 
 ## Random Questions
 
