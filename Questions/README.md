@@ -5,20 +5,19 @@
 - [Questions](#questions)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
-  - [Database Questions](#database-questions)
   - [Random Questions](#random-questions)
   - [IQ Questions](#iq-questions)
 
 ## Introduction
 
-This section contains questions that can be asked in an interview. The questions are divided into 6 categories:
+This section contains questions that can be asked in an interview.
 
-- [Data Structure](../DataStructure/README.md)
+- [OOP](../OOP/OOPQuestions.md)
+- [Data Structure](../DataStructure/DataStructureQuestions.md)
 - [Algorithms](../Algorithms/README.md)
-- [Database](../Database/README.md)
+- [Database](../Database/DatabaseQuestions.md)
 - [Random](#random-questions)
 - [IQ](#iq-questions)
-
 
 ## Random Questions
 
