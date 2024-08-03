@@ -6,14 +6,15 @@
   - [Table of contents](#table-of-contents)
   - [What is a databases?](#what-is-a-databases)
   - [Types of databases](#types-of-databases)
-  - [Relational databases](#relational-databases)
-    - [Relational database example](#relational-database-example)
-  - [Non-relational databases](#non-relational-databases)
-    - [Non-relational database example](#non-relational-database-example)
+    - [Relational databases](#relational-databases)
+      - [Relational database example](#relational-database-example)
+    - [Non-relational databases](#non-relational-databases)
+      - [Non-relational database example](#non-relational-database-example)
   - [SQL vs NoSQL](#sql-vs-nosql)
   - [SQL](#sql)
   - [ORM](#orm)
     - [ORM example](#orm-example)
+  - [**Database Questions**](#database-questions)
 
 ## What is a databases?
 
@@ -26,11 +27,11 @@ There are several types of databases, here are some of them:
 - Relational databases
 - Non-relational databases
 
-## Relational databases
+### Relational databases
 
 A relational database is a type of database that stores and provides access to data points that are related to one another. Relational databases are based on the relational model, an intuitive, straightforward way of representing data in tables. In a relational database, each row in the table is a record with a unique ID called the key. The columns of the table hold attributes of the data, and each record usually has a value for each attribute, making it easy to establish the relationships among data points.
 
-### Relational database example
+#### Relational database example
 
 | ID  | Name  | Age | City     |
 | --- | ----- | --- | -------- |
@@ -38,11 +39,11 @@ A relational database is a type of database that stores and provides access to d
 | 2   | Mary  | 25  | London   |
 | 3   | Peter | 40  | Paris    |
 
-## Non-relational databases
+### Non-relational databases
 
 A non-relational database is a database that does not incorporate the table/key model that relational database management systems (RDBMS) promote. Instead, non-relational databases use a storage model that is optimized for the specific requirements of the type of data being stored. Non-relational databases are also referred to as NoSQL databases — with the SQL referring to structured query language — to indicate that they do not use the same language as relational databases to query data.
 
-### Non-relational database example
+#### Non-relational database example
 
 ```json
 {
@@ -100,5 +101,7 @@ public class User {
   // getters and setters
 }
 ```
+
+## [**Database Questions**](DataBaseQuestions.md#database-questions)
 
 [**Go Back**](../README.md)
