@@ -16,4 +16,4 @@ OOP stands for _Object Oriented Programming_. is a programming paradigm that use
 - [**SOLID**](SOLID.md#solid)
 - [**OOP Questions**](OOPQuestions.md#oop-questions)
 
-[**Go Back**](../OOP/README.md)
+[**Go Back**](../README.md)
