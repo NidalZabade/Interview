@@ -16,7 +16,6 @@
   - [IQ Questions](#iq-questions)
     - [Swap two variables without using a temporary variable.](#swap-two-variables-without-using-a-temporary-variable)
     - [The 8 balls problem](#the-8-balls-problem)
-    - [The fruit jars problem](#the-fruit-jars-problem)
     - [The 4 gallon jug problem](#the-4-gallon-jug-problem)
     - [The flower field problem](#the-flower-field-problem)
     - [The 3 cuts problem](#the-3-cuts-problem)
@@ -171,12 +170,6 @@ You have 8 balls. One of them is defective and weighs less than the others. You 
 - Find the defective ball in 2 weighings.
   Ans: Divide the balls into 3 groups of (3,3,2), weigh the first 2 groups (3,3), if they are equal, then the defective ball is in the third group (2), otherwise the defective ball is in the lighter group (3). Divide the lighter group (3) into 2 groups of (1,1), weigh the 2 groups, if they are equal, then the defective ball is the one that was not weighed, otherwise the defective ball is the lighter ball.
 - Same strategy can be used for 12 balls, 27 balls, 81 balls, etc.
-
-### The fruit jars problem
-
-You have 3 jars that are all mislabeled. One jar contains Apple, another contains Orange, and the third jar contains a mixture of both Apple and Orange. You are allowed to pick as many fruits as you want from each jar to fix the labels on the jars. What is the minimum number of fruits that you have to pick and from which jars to correctly label them?
-
-- Ans: Pick a fruit from the jar labeled Apple and Orange. If the fruit is Apple, then the jar labeled Apple contains Apple, the jar labeled Orange contains Orange, and the jar labeled Apple and Orange contains Apple. If the fruit is Orange, then the jar labeled Apple contains Orange, the jar labeled Orange contains Apple, and the jar labeled Apple and Orange contains Orange.
 
 ### The 4 gallon jug problem
 
